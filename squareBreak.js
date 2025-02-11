@@ -8,7 +8,7 @@
 // }
 
 for (let i = 1; i <= 100; i++) {
-  if (Number.isInteger(Math.sqrt(i))&& i>1) {
+  if (Number.isInteger(Math.sqrt(i)) && i > 1) {
     // Check if i is a perfect square
     console.log(`Stopped at square number: ${i}`);
     break;
